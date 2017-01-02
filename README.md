@@ -54,7 +54,6 @@ Runs bundler for specified user. It's handy when doing user's `bundle install`, 
 
 Alexey Melezhik
 
-
 # See also
 
 [Ruby bundler](http://bundler.io)

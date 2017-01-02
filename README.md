@@ -20,7 +20,7 @@ Probably eventually I will add some other possibilities.
     $ cat sparrowfile
 
     # runs bundle install for a Gemfile located at the directory:
-    ruby_bundler %(
+    module_run 'Ruby::Bundler', %(
       gemfile_dir => '/path/to/directory/with/gemfile',
     );
 

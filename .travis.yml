@@ -11,5 +11,3 @@ script:
   - prove -vr -e 'perl6 -Ilib' t/
 
 sudo: false
-
-

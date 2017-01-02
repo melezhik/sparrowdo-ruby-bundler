@@ -40,7 +40,11 @@ The location to install the specified gems to. Optional, no default value.
 
 ## verbose
 
-Sets verbose mode. Default value is 0 ( quite mode ). Optional.
+Sets verbose mode for `bundle install` command. Default value is 0 ( quite mode ). Optional.
+
+## debug
+
+Sets debug mode. Optional. Is useful when debugging/troubleshooting the module.
 
 ## user
 

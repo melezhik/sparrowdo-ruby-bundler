@@ -1,12 +1,21 @@
 # SYNOPSIS
 
-Manages Ruby gems via Ruby bundler.
+Sparrowdo module to manage Ruby gems via Ruby bundler.
+
+# Travis build status
+
+[![Build Status](https://travis-ci.org/melezhik/sparrowdo-ruby-bundler.svg)](https://travis-ci.org/melezhik/sparrowdo-ruby-bundler)
+
 
 # INSTALL
 
     $ panda install Sparrowdo::Ruby::Bundler
 
 # USAGE
+
+Right now all this module does is install RubyGem dependencies straight away from Gemfile.
+Probably eventually I will add some other possibilities.
+
 
     $ cat sparrowfile
 
@@ -31,17 +40,11 @@ The location to install the specified gems to. Optional, no default value.
 
 ## verbose
 
-Sets verbosity. Default value is 0 ( no verbosity ). Optional.
+Sets verbose mode. Default value is 0 ( quite mode ). Optional.
 
 ## user
 
 Runs bundler for specified user. It's handy when doing user's `bundle install`, not system wide.
-
-## http_proxy
-
-Sets http proxy server. If you are under firewall and http traffic is restricted to use http proxy,
-use this parameter to set proxy server.
-
 
 # Author
 
